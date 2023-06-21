@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  font-family: 'Kanit', sans-serif;
+}
+
+.recent__container {
+  text-align: center;
+}
+
+.recent__container > h2 {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.recent__container > p {
+  margin-bottom: 4rem;
+}
+
+.recent__grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3,200px);
+}
+
+.recent__item h3 {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.recent__item p {
+  font-size: 1.25rem;
+  }
